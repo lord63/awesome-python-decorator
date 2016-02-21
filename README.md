@@ -12,8 +12,9 @@ Once you've know the basic of how to use the decorator, now you can take a look 
 decorator in real life.
 
 - [Flask](https://github.com/mitsuhiko/flask) Flask is a micro web framework in python, it use decorator to route the
-url, register error handler, register processor and so on.
+URL, register error handler, register processor and so on.
 - [flask-login](https://github.com/maxcountryman/flask-login) Flask-Login provides user session management for Flask.
+For example, it use the `login_required` decorator to protect some views that need the users to be logged in.
 - [pypi-cli](https://github.com/sloria/pypi-cli) pypi-cli is a command-line interface to the Python Package Index.
 It use decorator to makes a property lazy-evaluated.
 - [py-spin](https://github.com/lord63/py-spin) py-spin is a terminal spinner package for python. Yes, it use decorator
