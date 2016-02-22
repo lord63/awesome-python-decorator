@@ -17,8 +17,13 @@ to be a central repository of decorator code pieces. Lots of decorator example, 
 Once you've know the basic of how to use the decorator, now you can take a look at some projects to see how people use
 decorator in real life.
 
+- [cached-property](https://github.com/pydanny/cached-property) A decorator for caching properties in classes.
+- [cachetools](https://github.com/tkem/cachetools) This module provides various memoizing collections and decorators,
+including variants of the Python 3 Standard Library @lru_cache function decorator.
 - [click](https://github.com/mitsuhiko/click) Click is a Python package for creating beautiful command line interfaces,
 based on declaring commands through decorators.
+- [decorator](https://github.com/micheles/decorator) It is your best option if you want to preserve the signature of
+decorated functions in a consistent way across Python releases.
 - [Flask](https://github.com/mitsuhiko/flask) Flask is a micro web framework in python, it use decorator to route the
 URL, register error handler, register processor and so on.
 - [flask-login](https://github.com/maxcountryman/flask-login) Flask-Login provides user session management for Flask.
@@ -27,14 +32,21 @@ For example, it use the `login_required` decorator to protect some views that ne
 decorator to do the python 2.x and 3.x compatible mission.
 - [me-api](https://github.com/lord63/me-api) An extensible, personal API with custom integrations. It use the decorator
 to make sure there is an access token in the configuration file before sending the API request.
+- [profilehooks](https://github.com/mgedmin/profilehooks) Python decorators for profiling/tracing/timing a single
+function.
 - [pypi-cli](https://github.com/sloria/pypi-cli) pypi-cli is a command-line interface to the Python Package Index.
 It use decorator to makes a property lazy-evaluated.
 - [py-spin](https://github.com/lord63/py-spin) py-spin is a terminal spinner package for python. Yes, it use decorator
 to register a function that need to take a long time to finish and show the spinner when process it.
+- [python-goto](https://github.com/snoack/python-goto) A function decorator, that rewrites the bytecode, to enable goto
+in python.
 - [retrying](https://github.com/rholder/retrying) Retrying is general-purpose retrying library simplify the task of
 adding retry behavior to just about anything.
+- [timeout-decorator](https://github.com/pnpnpn/timeout-decorator) Timeout decorator for Python, it use decorator to
+limit the execution time of the given function.
 - [Tomorrow](https://github.com/madisonmay/Tomorrow) Tomorrow use decorator to do the magic that let you write
 asynchronous code with ease.
+- [wrapt](https://github.com/GrahamDumpleton/wrapt) A Python module for decorators, wrappers and monkey patching.
 
 ## Contribute
 
