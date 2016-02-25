@@ -31,7 +31,8 @@ For example, it use the `login_required` decorator to protect some views that ne
 - [GB2260.py](https://github.com/cn/GB2260.py) It is used to look up Chinese administrative divisions. It use the
 decorator to do the python 2.x and 3.x compatible mission.
 - [me-api](https://github.com/lord63/me-api) An extensible, personal API with custom integrations. It use the decorator
-to make sure there is an access token in the configuration file before sending the API request.
+to make sure there is an access_token in the configuration file before sending the API request and reject another
+authentication if there is already an access_token.
 - [profilehooks](https://github.com/mgedmin/profilehooks) Python decorators for profiling/tracing/timing a single
 function.
 - [pypi-cli](https://github.com/sloria/pypi-cli) pypi-cli is a command-line interface to the Python Package Index.
