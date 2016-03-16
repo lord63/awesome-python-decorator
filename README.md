@@ -59,10 +59,12 @@ asynchronous code with ease.
 Please do! Create a project is not hard, while maintaining it is not easy. To make this project stay healthy and easy
 to maintain, what's more, to make it to be AWESOME, we need help. The best way in my opinion is watch this repository
 and join the daily discussions when some send a pull request and raise an issue. There are also many other ways to
-do the contribution, but please read the [Contributing guide]() before step forward :)
+do the contribution, but please read the [Contributing guide][] before step forward :)
 
 Contributions are always welcome at any time! :sparkles: :cake: :sparkles:
 
 ## License
 
 CC0 1.0
+
+[Contributing guide]: https://github.com/lord63/awesome-python-decorator/blob/master/CONTRIBUTING.md
