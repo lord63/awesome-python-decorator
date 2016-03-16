@@ -65,4 +65,4 @@ Contributions are always welcome at any time! :sparkles: :cake: :sparkles:
 
 ## License
 
-TODO.
+CC0 1.0
