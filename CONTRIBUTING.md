@@ -24,6 +24,11 @@ The format for the package in the list is:
 
 And also note that the packages are sorted in **alphabetical** order.
 
+Note that we may not accept those kind of packages:
+
+* No tests. The package should be look like a project not a script.
+* Although it use decorator to do something, but the idea is not cool or duplicated in the existed packages.
+
 ## Remove a existed package
 
 If you have different opinions that some packages are not awesome enough to be in this list, feel free to send a

@@ -7,6 +7,7 @@
 Here are some resources about the python decorators.
 
 - [PEP 0318 -- Decorators for Functions and Methods](https://www.python.org/dev/peps/pep-0318/)
+- [PEP 3129 -- Class Decorators](https://www.python.org/dev/peps/pep-3129/)
 - [Python Wiki - PythonDecorators](https://wiki.python.org/moin/PythonDecorators) This page largely documents the
 history of the process of adding decorators to Python.
 - [Python Wiki - PythonDecoratorLibrary](https://wiki.python.org/moin/PythonDecoratorLibrary) This page is meant
