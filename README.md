@@ -23,7 +23,8 @@ decorators in real life.
 including variants of the Python 3 Standard Library @lru_cache function decorator.
 - [celery](https://github.com/celery/celery) Celery is a distributed task queue, it uses decorator to create tasks.
 - [click](https://github.com/mitsuhiko/click) Click is a Python package for creating beautiful command line interfaces,
-based on declaring commands through decorators.
+based on declaring commands through decorators. You can also check out the
+[autocommand](https://github.com/Lucretiel/autocommand) library which shares a similar idea with click.
 - [decorator](https://github.com/micheles/decorator) This is your best option if you want to preserve the signature of
 decorated functions in a consistent way across Python releases.
 - [Flask](https://github.com/mitsuhiko/flask) Flask is a micro web framework in python, which uses decorators to route
