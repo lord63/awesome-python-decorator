@@ -13,6 +13,25 @@ history of the process of adding decorators to Python.
 - [Python Wiki - PythonDecoratorLibrary](https://wiki.python.org/moin/PythonDecoratorLibrary) This page is meant
 to be a central repository of decorator code pieces. Lots of decorator examples, really cool!
 
+## Built-in python decorator
+
+- [@abc.abstractmethod](https://docs.python.org/3.5/library/abc.html#abc.abstractmethod) A decorator indicating
+abstract methods.
+- [@abc.abstractclassmethod](https://docs.python.org/3.5/library/abc.html#abc.abstractclassmethod) A subclass of the
+built-in `classmethod()`, indicating an abstract `classmethod`. Otherwise it is similar to `abc.abstractmethod()`.
+- [@abc.abstractstaticmethod](https://docs.python.org/3.5/library/abc.html#abc.abstractstaticmethod) A subclass of the
+built-in `staticmethod()`, indicating an abstract `staticmethod`. Otherwise it is similar to `abc.abstractmethod()`.
+- [@abc.abstractproperty](https://docs.python.org/3.5/library/abc.html#abc.abstractproperty) A subclass of the built-in
+`property()`, indicating an abstract property.
+- [@classmethod](https://docs.python.org/3.5/library/functions.html#classmethod) Return a class method for function.
+- [@contextlib.contextmanager](https://docs.python.org/3.5/library/contextlib.html#contextlib.contextmanager) Define a
+factory function for with statement context managers, without needing to create a class or separate `__enter__()` and
+`__exit__()` methods.
+- [@property](https://docs.python.org/3.5/library/functions.html#property) Return a property attribute.
+- [@staticmethod](https://docs.python.org/3.5/library/functions.html#staticmethod) Return a static method for function.
+- to be continue
+
+
 ## Python decorator in the wild
 
 Once you know the basics of how to use a decorator, you can take a look at some real projects to see how people use
