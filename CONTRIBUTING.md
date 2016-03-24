@@ -22,7 +22,7 @@ The format for the package in the list is:
     - [package_name](link_to_the_package) A brief introduction for the package. Then tell us this package
       use decorator to do what.
 
-And also note that the packages are sorted in **alphabetical** order.
+Also note that the package names are sorted in **alphabetical** order, and the maximum line length is 120.
 
 Note that we may not accept those kind of packages:
 
