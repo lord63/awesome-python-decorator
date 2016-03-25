@@ -17,10 +17,6 @@ to be a central repository of decorator code pieces. Lots of decorator examples,
 
 - [@abc.abstractmethod](https://docs.python.org/3.5/library/abc.html#abc.abstractmethod) A decorator indicating
 abstract methods.
-- [@abc.abstractclassmethod](https://docs.python.org/3.5/library/abc.html#abc.abstractclassmethod) A subclass of the
-built-in `classmethod()`, indicating an abstract `classmethod`. Otherwise it is similar to `abc.abstractmethod()`.
-- [@abc.abstractstaticmethod](https://docs.python.org/3.5/library/abc.html#abc.abstractstaticmethod) A subclass of the
-built-in `staticmethod()`, indicating an abstract `staticmethod`. Otherwise it is similar to `abc.abstractmethod()`.
 - [@abc.abstractproperty](https://docs.python.org/3.5/library/abc.html#abc.abstractproperty) A subclass of the built-in
 `property()`, indicating an abstract property.
 - [@classmethod](https://docs.python.org/3.5/library/functions.html#classmethod) Return a class method for function.
