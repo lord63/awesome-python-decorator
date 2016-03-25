@@ -19,12 +19,25 @@ to be a central repository of decorator code pieces. Lots of decorator examples,
 abstract methods.
 - [@abc.abstractproperty](https://docs.python.org/3.5/library/abc.html#abc.abstractproperty) A subclass of the built-in
 `property()`, indicating an abstract property.
+- [@asyncio.coroutine](https://docs.python.org/3.5/library/asyncio-task.html#asyncio.coroutine) Decorator to mark
+generator-based coroutines. New in version 3.4.
 - [@classmethod](https://docs.python.org/3.5/library/functions.html#classmethod) Return a class method for function.
 - [@contextlib.contextmanager](https://docs.python.org/3.5/library/contextlib.html#contextlib.contextmanager) Define a
 factory function for with statement context managers, without needing to create a class or separate `__enter__()` and
 `__exit__()` methods.
+- [@functools.lru_cache](https://docs.python.org/3.5/library/functools.html#functools.lru_cache) Decorator to wrap a
+function with a memoizing callable that saves up to the maxsize most recent calls. It can save time when an expensive
+or I/O bound function is periodically called with the same arguments. New in python 3.2.
+- [@functools.singledispatch](https://docs.python.org/3.5/library/functools.html#functools.singledispatch) Transforms
+a function into a single-dispatch generic function. New in python 3.4.
+- [@functools.total_ordering](https://docs.python.org/3.5/library/functools.html#functools.total_ordering) Given a
+class defining one or more rich comparison ordering methods, this class decorator supplies the rest.
+- [@functools.wraps](https://docs.python.org/3.5/library/functools.html#functools.wraps) This is a convenience function
+for invoking update_wrapper() as a function decorator when defining a wrapper function.
 - [@property](https://docs.python.org/3.5/library/functions.html#property) Return a property attribute.
 - [@staticmethod](https://docs.python.org/3.5/library/functions.html#staticmethod) Return a static method for function.
+- [@types.coroutine](https://docs.python.org/3.5/library/types.html#types.coroutine) This function transforms a generator
+function into a coroutine function which returns a generator-based coroutine. New in python 3.5.
 - to be continue
 
 
