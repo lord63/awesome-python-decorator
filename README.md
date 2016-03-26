@@ -21,6 +21,8 @@ abstract methods.
 `property()`, indicating an abstract property.
 - [@asyncio.coroutine](https://docs.python.org/3.5/library/asyncio-task.html#asyncio.coroutine) Decorator to mark
 generator-based coroutines. New in version 3.4.
+- [@atexit.register](https://docs.python.org/2.7/library/atexit.html#atexit.register) Register func as a function to
+be executed at termination.
 - [@classmethod](https://docs.python.org/3.5/library/functions.html#classmethod) Return a class method for function.
 - [@contextlib.contextmanager](https://docs.python.org/3.5/library/contextlib.html#contextlib.contextmanager) Define a
 factory function for with statement context managers, without needing to create a class or separate `__enter__()` and
@@ -36,8 +38,18 @@ class defining one or more rich comparison ordering methods, this class decorato
 for invoking update_wrapper() as a function decorator when defining a wrapper function.
 - [@property](https://docs.python.org/3.5/library/functions.html#property) Return a property attribute.
 - [@staticmethod](https://docs.python.org/3.5/library/functions.html#staticmethod) Return a static method for function.
-- [@types.coroutine](https://docs.python.org/3.5/library/types.html#types.coroutine) This function transforms a generator
-function into a coroutine function which returns a generator-based coroutine. New in python 3.5.
+- [@types.coroutine](https://docs.python.org/3.5/library/types.html#types.coroutine) This function transforms a
+generator function into a coroutine function which returns a generator-based coroutine. New in python 3.5.
+- [@unittest.mock.patch](https://docs.python.org/3.5/library/unittest.mock.html#unittest.mock.patch) Acts as a function
+decorator, class decorator or a context manager. Inside the body of the function or with statement, the target is
+patched with a new object. When the function/with statement exits the patch is undone. New in python 3.3.
+- [@unittest.mock.patch.dict](https://docs.python.org/3.5/library/unittest.mock.html#unittest.mock.patch.dict)
+Patch a dictionary, or dictionary like object, and restore the dictionary to its original state after the test.
+New in python 3.3.
+- [@unittest.mock.patch.multiple](https://docs.python.org/3.5/library/unittest.mock.html#unittest.mock.patch.multiple)
+Perform multiple patches in a single call. New in python 3.3.
+- [@unittest.mock.patch.object](https://docs.python.org/3.5/library/unittest.mock.html#unittest.mock.patch.object)
+Patch the named member (attribute) on an object (target) with a mock object. New in python 3.3.
 - to be continue
 
 
