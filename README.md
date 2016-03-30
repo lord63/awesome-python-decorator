@@ -67,7 +67,7 @@ based on declaring commands through decorators. You can also check out the
 [autocommand](https://github.com/Lucretiel/autocommand) library which shares a similar idea with click.
 - [decorator](https://github.com/micheles/decorator) This is your best option if you want to preserve the signature of
 decorated functions in a consistent way across Python releases.
-- [Flask](https://github.com/mitsuhiko/flask) Flask is a micro web framework in python, which uses decorators to route
+- [flask](https://github.com/mitsuhiko/flask) Flask is a micro web framework in python, which uses decorators to route
 the URL, register error handler, register processor and so on.
 - [flask-login](https://github.com/maxcountryman/flask-login) Flask-Login provides user session management for Flask.
 For example, it use the `login_required` decorator to protect some views that need the user to be logged in.
