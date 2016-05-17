@@ -65,6 +65,8 @@ including variants of the Python 3 Standard Library @lru_cache function decorato
 - [click](https://github.com/mitsuhiko/click) Click is a Python package for creating beautiful command line interfaces,
 based on declaring commands through decorators. You can also check out the
 [autocommand](https://github.com/Lucretiel/autocommand) library which shares a similar idea with click.
+- [deco](https://github.com/alex-sherman/deco) A simplified parallel computing model for Python. DECO automatically
+parallelizes Python programs, and requires minimal modifications to existing serial programs.
 - [decorator](https://github.com/micheles/decorator) This is your best option if you want to preserve the signature of
 decorated functions in a consistent way across Python releases.
 - [flask](https://github.com/mitsuhiko/flask) Flask is a micro web framework in python, which uses decorators to route
@@ -91,6 +93,8 @@ processing!
 in python.
 - [retrying](https://github.com/rholder/retrying) Retrying is general-purpose retrying library that simplifies the task
 of adding retry behavior to just about anything.
+- [showme](https://github.com/kennethreitz/showme) ShowMe is a simple set of extremely useful function decorators for Python.
+It allows you to view trace information, execution time, cputime, and function documentation.
 - [timeout-decorator](https://github.com/pnpnpn/timeout-decorator) Timeout decorator for Python which uses a decorator
 to limit the execution time of the given function.
 - [Tomorrow](https://github.com/madisonmay/Tomorrow) Tomorrow use decorator to do the magic that let you write
