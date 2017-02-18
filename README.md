@@ -58,6 +58,7 @@ Patch the named member (attribute) on an object (target) with a mock object. New
 Once you know the basics of how to use a decorator, you can take a look at some real projects to see how people use
 decorators in real life.
 
+- [autocommand](https://github.com/Lucretiel/autocommand) This module allows you to designate a function in your package as a `main` function. The function is called automatically when the script is run, and a command line interface is generated using the function's signature. The `@autocommand` decorator tags the function as the `main` function.
 - [cached-property](https://github.com/pydanny/cached-property) A decorator for caching properties in classes.
 - [cachetools](https://github.com/tkem/cachetools) This module provides various memoizing collections and decorators,
 including variants of the Python 3 Standard Library @lru_cache function decorator.
