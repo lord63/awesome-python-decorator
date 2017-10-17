@@ -91,10 +91,9 @@ decorator to register a function that needs to take a long time to finish, as we
 processing!
 - [python-goto](https://github.com/snoack/python-goto) A function decorator that rewrites the bytecode, enabling goto
 in python.
-- [retrying](https://github.com/rholder/retrying) Retrying is general-purpose retrying library that simplifies the task
-of adding retry behavior to just about anything.
 - [showme](https://github.com/kennethreitz/showme) ShowMe is a simple set of extremely useful function decorators for Python.
 It allows you to view trace information, execution time, cputime, and function documentation.
+- [tenacity](https://github.com/jd/tenacity) Simplifies the task of adding retry behavior to just about anything. It originates from a fork of [retrying](https://github.com/rholder/retrying).
 - [timeout-decorator](https://github.com/pnpnpn/timeout-decorator) Timeout decorator for Python which uses a decorator
 to limit the execution time of the given function.
 - [Tomorrow](https://github.com/madisonmay/Tomorrow) Tomorrow use decorator to do the magic that let you write
