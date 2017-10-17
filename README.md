@@ -69,6 +69,7 @@ based on declaring commands through decorators. You can also check out the
 parallelizes Python programs, and requires minimal modifications to existing serial programs.
 - [decorator](https://github.com/micheles/decorator) This is your best option if you want to preserve the signature of
 decorated functions in a consistent way across Python releases.
+- [fasteners](https://github.com/harlowja/fasteners) Provides useful locks and decorators to lock/unlock around functions and methods.
 - [flask](https://github.com/mitsuhiko/flask) Flask is a micro web framework in python, which uses decorators to route
 the URL, register error handler, register processor and so on.
 - [flask-login](https://github.com/maxcountryman/flask-login) Flask-Login provides user session management for Flask.
