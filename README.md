@@ -27,6 +27,9 @@ be executed at termination.
 - [@contextlib.contextmanager](https://docs.python.org/3.5/library/contextlib.html#contextlib.contextmanager) Define a
 factory function for with statement context managers, without needing to create a class or separate `__enter__()` and
 `__exit__()` methods.
+- [@functools.cached_property](https://docs.python.org/3.8/library/functools.html#functools.cached_property) Transform
+a method of a class into a property whose value is computed once and then cached as a normal attribute
+for the life of the instance.
 - [@functools.lru_cache](https://docs.python.org/3.5/library/functools.html#functools.lru_cache) Decorator to wrap a
 function with a memoizing callable that saves up to the maxsize most recent calls. It can save time when an expensive
 or I/O bound function is periodically called with the same arguments. New in python 3.2.
