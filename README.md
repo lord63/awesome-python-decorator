@@ -89,6 +89,7 @@ authentication if there is already an access_token.
 - [numba](https://numba.pydata.org/) Numba gives you the power to speed up your applications with high performance functions written directly in Python. It uses `jit` to decorate array-oriented and math-heavy Python code can be just-in-time compiled to native machine instructions, similar in performance to C, C++ and Fortran, without having to switch languages or Python interpreters.
 - [lettuce](https://github.com/gabrielfalcao/lettuce) Lettuce is a BDD tool for python. It uses `step` and `steps` to
 decorate functions and classes so they become new step definitions.
+- [multipledispatch.dispatch](https://github.com/mrocklin/multipledispatch) Can be used to make Python methods polymorphic by type.
 - [profilehooks](https://github.com/mgedmin/profilehooks) Python decorators for profiling/tracing/timing a single
 function.
 - [pypi-cli](https://github.com/sloria/pypi-cli) pypi-cli is a command-line interface to the Python Package Index.
