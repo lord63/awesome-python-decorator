@@ -23,6 +23,7 @@ abstract methods.
 generator-based coroutines. New in version 3.4.
 - [@atexit.register](https://docs.python.org/2.7/library/atexit.html#atexit.register) Register func as a function to
 be executed at termination.
+- [@cached_property](https://docs.python.org/3.8/library/functools.html#functools.cached_property) - Similar to [@property](https://docs.python.org/3.5/library/functions.html#property), with the addition of caching. New in python 3.8.
 - [@classmethod](https://docs.python.org/3.5/library/functions.html#classmethod) Return a class method for function.
 - [@contextlib.contextmanager](https://docs.python.org/3.5/library/contextlib.html#contextlib.contextmanager) Define a
 factory function for with statement context managers, without needing to create a class or separate `__enter__()` and
