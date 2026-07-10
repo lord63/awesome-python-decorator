@@ -102,6 +102,7 @@ in python.
 - [showme](https://github.com/kennethreitz/showme) ShowMe is a simple set of extremely useful function decorators for Python.
 It allows you to view trace information, execution time, cputime, and function documentation.
 - [tenacity](https://github.com/jd/tenacity) Simplifies the task of adding retry behavior to just about anything. It originates from a fork of [retrying](https://github.com/rholder/retrying).
+- [backon](https://github.com/Llucs/backon) A modern retry library with zero dependencies, native async support, full type hints and circuit breaker. Successor to the now-archived [backoff](https://github.com/litl/backoff).
 - [timeout-decorator](https://github.com/pnpnpn/timeout-decorator) Timeout decorator for Python which uses a decorator
 to limit the execution time of the given function.
 - [Tomorrow](https://github.com/madisonmay/Tomorrow) Tomorrow use decorator to do the magic that let you write
