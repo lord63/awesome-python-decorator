@@ -97,6 +97,8 @@ It use decorator to makes a property lazy-evaluated.
 - [py-spin](https://github.com/lord63/py-spin) py-spin is a terminal spinner package for python. Yes, it does use a
 decorator to register a function that needs to take a long time to finish, as well as showing a spinner while it's
 processing!
+- [pyresilience](https://github.com/AhsanSheraz/pyresilience) A resilience library for sync and async functions. It
+uses a single decorator to add retry, circuit breaker, timeout, fallback, bulkhead, rate limiter and cache to a call.
 - [python-goto](https://github.com/snoack/python-goto) A function decorator that rewrites the bytecode, enabling goto
 in python.
 - [showme](https://github.com/kennethreitz/showme) ShowMe is a simple set of extremely useful function decorators for Python.
